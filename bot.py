@@ -13,16 +13,16 @@ from typing import Dict, Any, List
 # --- Environment Configuration ---
 # NOTE: These values are read from Render's environment variables.
 
-API_ID = int(os.environ.get("API_ID", 12345))
-API_HASH = os.environ.get("API_HASH", "MOCK_API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+API_ID = int(os.environ.get("39900788", 12345))
+API_HASH = os.environ.get("131b16dfa3a5d092fdd6f8973ac85bb0", "MOCK_API_HASH")
+BOT_TOKEN = os.environ.get("8525430169:AAHa85NRy-kPFAeKQjBDMRW0blM4zUI6nPw", "YOUR_BOT_TOKEN_HERE")
 
-OWNER_ID = int(os.environ.get("OWNER_ID", 12345))
-FILE_CHANNEL_ID = int(os.environ.get("FILE_CHANNEL_ID", -1001234567))
-LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", -1001987654))
+OWNER_ID = int(os.environ.get("7967976210", 12345))
+FILE_CHANNEL_ID = int(os.environ.get("-1003608834159", -1001234567))
+LOG_CHANNEL_ID = int(os.environ.get("-1003651792470", -1001987654))
 LINK_SHORTENER_API = os.environ.get("LINK_SHORTENER_API", "https://mock.linkshortener.com/api")
 LINK_SHORTENER_KEY = os.environ.get("LINK_SHORTENER_KEY", "MOCK_KEY")
-MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb://localhost:27017/")
+MONGODB_URI = os.environ.get("mongodb+srv://otctech3_db_user:<testbot6>@cluster0.6n9idwm.mongodb.net/?appName=Cluster0", "mongodb://localhost:27017/")
 DB_NAME = "filter_bot_db"
 
 # --- 0. MONGODB DATABASE SETUP ---
@@ -210,4 +210,5 @@ if __name__ == '__main__':
     print("Conceptual code running. Deploy to Render to go live.")
     
     # In a real Pyrogram deployment, you would start the client here:
+
     # app.run()
