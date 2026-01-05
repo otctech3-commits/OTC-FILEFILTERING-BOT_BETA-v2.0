@@ -1,3 +1,5 @@
+THIS IS JUST A PREVIEW OF THE CODE. ✨ here you can see through the basic structure of code
+
 import os
 import time
 import json
@@ -210,4 +212,5 @@ if __name__ == '__main__':
     print("Conceptual code running. Deploy to Render to go live.")
     
     # In a real Pyrogram deployment, you would start the client here:
+
     # app.run()
